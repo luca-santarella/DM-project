@@ -9,7 +9,7 @@ are organized in .csv file:
 * male_players.csv
 * female_players.csv<br>
 
-### Task 1 Data Understanding and Preparation:
+### Task 1: Data Understanding and Preparation
 Task 1.1: Data Understanding: Explore the dataset with the analytical tools studied
 and write a concise “data understanding” report assessing data quality, the
 distribution of the variables and the pairwise correlations.
@@ -48,7 +48,7 @@ obtained
 Explore the opportunity to use alternative clustering techniques
 in the library: https://github.com/annoviko/pyclustering/
 
-Task 3: Predictive Analysis
+### Task 3: Predictive Analysis
 Consider the problem of predicting for each player a label that defines if s(he) is a high
 ranked player or a low ranked player (binary task) by exploiting the feature related to the
 rank of the players.
@@ -67,3 +67,9 @@ Note that you can define in different ways the labels.
 discussing the results and discussing the possible preprocessing that you applied to
 the data for managing possible problems identified that can make the prediction hard.
 Note that the evaluation should be performed on both training and test set.
+
+### Task 4.1: Time Series Analysis
+
+Consider the dataset of time series CityGlobalTemperature2000-2009.csv containing for 100
+cities the temperature measurements (mean and standard deviation over a month). The goal
+of the task is to find groups of similar cities with respect to the temperature trends.
